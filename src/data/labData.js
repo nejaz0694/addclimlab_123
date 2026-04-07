@@ -9,6 +9,11 @@ export const labData = {
       { value: '8+', label: 'Research Areas' },
     ]
   },
+  contact: {
+    email: 'advancedhydrolab@gmail.com',
+    phone: '+86 188-13273612',
+    location: 'Department of Hydrology, University Campus'
+  },
   team: [
     { 
       name: 'Engr. Nuaman Ejaz', 
