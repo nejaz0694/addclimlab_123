@@ -27,8 +27,23 @@ export default function Contact() {
           <div className="lg:col-span-2 space-y-8">
             <div className="premium-glass p-8 space-y-8">
               {[
-                { label: 'Official Email', value: 'advancedhydrolab@gmail.com', icon: 'M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z' },
-                { label: 'Campus Location', value: 'Department of Hydrology, University Campus', icon: 'M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z' },
+                [
+  { 
+    label: 'Official Email', 
+    value: 'advancedhydrolab@gmail.com', 
+    icon: 'M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z' 
+  },
+  { 
+    label: 'Phone Number', 
+    value: '+86 1881317361', 
+    icon: 'M3 5a2 2 0 012-2h2.28a2 2 0 011.94 1.515l.516 2.065a2 2 0 01-.45 1.94l-1.27 1.27a16 16 0 006.586 6.586l1.27-1.27a2 2 0 011.94-.45l2.065.516A2 2 0 0121 16.72V19a2 2 0 01-2 2h-1C9.163 21 3 14.837 3 7V5z' 
+  },
+  { 
+    label: 'Campus Location', 
+    value: 'Department of Hydrology, University Campus', 
+    icon: 'M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z' 
+  },
+]
               ].map((item) => (
                 <div key={item.label} className="flex gap-6 group">
                   <div className="w-14 h-14 rounded-2xl bg-hydro-500/10 border border-hydro-500/10 flex items-center justify-center text-hydro-600 dark:text-hydro-400 group-hover:bg-hydro-500/20 transition-all">
