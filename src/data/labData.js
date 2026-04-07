@@ -14,7 +14,7 @@ export const labData = {
       name: 'Engr. Nuaman Ejaz', 
       role: 'Lead Researcher & Lab Owner', 
       avatar: 'NE', 
-      image: null, // Add absolute path to image here, e.g., '/images/nuaman.jpg'
+      image: '/nuaman.jpg', // Add absolute path to image here, e.g., '/images/nuaman.jpg'
       color: 'from-hydro-500 to-teal-500',
       affiliation: 'Department of Hydraulic Engineering, Tsinghua University, Beijing 100084, China',
       bio: 'Engr. Nuaman Ejaz specializes in advanced hydrological modelling and water resources management. With a focus on integrating remote sensing and Python-based modelling frameworks, he leads the lab in developing sustainable solutions for water-stressed regions.',
