@@ -3,8 +3,7 @@ export const labData = {
     title: "Advanced Hydrology & Climate Research Lab",
     subtitle: "Pioneering research in hydrological modelling, glacio-hydrology, groundwater, climate science, and advanced technical consultancy.",
     stats: [
-      { value: '50+', label: 'Publications' },
-      { value: '12+', label: 'Active Projects' },
+     { value: '12+', label: 'Active Projects' },
       { value: '12', label: 'Team Members' },
       { value: '8+', label: 'Research Areas' },
     ]
